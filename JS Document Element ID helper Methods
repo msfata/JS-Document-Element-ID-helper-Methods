@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+	</head>
+	
+<script>
+	
+	function writeThis(id , val){
+	document.getElementById(id).innerHTML=val;
+	}
+	
+	function readThis(id){
+		var x= document.getElementById(id).value;
+		return x;
+	}
+	
+</script>	
+ 
+<body>
+
+<p id="p"></p>
+
+	<p id="x"></p>
+	
+	<input type="text" id="text" value="enter your name !"/>
+
+	<button onclick="writeThis('p','Mohammed Shafiq Fata')">Shafiq</button>
+
+	<button onclick="write(readThis('text'))">read</button>
+	
+	
+	</body>
+	
+</html>
